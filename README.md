@@ -26,6 +26,13 @@ Backdooring procedure:
  - Hook execution to shellcode location and back, ensuring that overwritten instructions are still run
  - Inject shellcode
 
+Test PE used:
+ - Diablo II 1.13c
+   - backdoor_loc: 0x8600
+   - shellcode_loc: 0x4070
+   - hook_loc: 0x1295
+   - hook_bytes: 8
+
 Possible future work:
  - Expand support for host PE's with different section layouts
  - Adding functionality to automatically detect code caves and space for the backdoor, improving automation
