@@ -1,5 +1,5 @@
 # BackdoorPE
-A Proof of Concept (PoC) backdoor injection tool developed to play around with various ideas and concepts. It takes a host Windows executable, or Portable Executable (PE), and injects a target PE along with the necessary modifications to silently gain execution. The output is a payload directory with the parent folder of the host executable with the same contents as the original except for the backdoored executable.
+A Proof of Concept (PoC) backdoor injection tool developed to **legally** play around and test various ideas and concepts. I assume no liability for its misuse. It takes a host Windows executable, or Portable Executable (PE), and injects a target PE along with the necessary modifications to silently gain execution. The output is a payload directory with the parent folder of the host executable with the same contents as the original except for the backdoored executable.
 
 BackdoorPE was developed alongside the Banter RAT (https://github.com/tserafin/Banter) with the end goal of injecting a legitimate Windows binary and stealthily gaining control of a target machine.
 
